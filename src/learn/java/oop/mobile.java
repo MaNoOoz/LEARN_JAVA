@@ -3,7 +3,7 @@ package learn.java.oop;
 public abstract class mobile {
     public abstract void start();
 
-    private void stop() {
+    public void stop() {
         System.out.println("HELLO AM STOPPING");
     }
 
@@ -26,8 +26,8 @@ class android extends mobile {
     public void CpuSpeed() {
         CPU cpu = new CPU();
         int speed = cpu.speed = 2000;
-        System.out.println("CPU Speed :" + speed + "");
-
+        Integer intObj2 = new Integer("25");
+        System.out.println("CPU Speed :" + speed + intObj2 + "");
     }
 }
 

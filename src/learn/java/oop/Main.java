@@ -3,17 +3,16 @@ package learn.java.oop;
 public class Main {
 
     public static void main(String[] args) {
-        mobile samsung = new android();
-        mobile apple = new Iphone();
-
-        samsung.start();
-        samsung.CpuSpeed();
-        samsung.stop();
-
-        apple.start();
-        apple.CpuSpeed();
-        apple.stop();
+        String str = "GeeeksforGeeks - A Computer Science Portal for Geeks";
+        System.out.println(findAnswer(str));
     }
 
+    private static String findAnswer(String str) {
+
+        return str.replaceAll("(?i)[aeiou]", "");
+
+    }
 }
+
+
 
