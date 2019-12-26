@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 abstract class Plan {
-    //    https://www.javatpoint.com/factory-method-design-pattern
     double rate;
 
     abstract void getRate();
